@@ -9,112 +9,108 @@
 <body>
     <h1>Student Registration Form</h1>
     <fieldset>
-    <form action="student_Register.html">
+    <form action="student_Register.html" method="Post">
         <label for="Firstname">First Name</label>
-        <input type="text" id="Firstname" maxlength="50">
+        <input type="text" id="Firstname" maxlength="50" name="Firstname">
         <br>
         <br>
         <label for="Lastname">Last Name</label>
-        <input type="text" id="Lastname" maxlength="50">
+        <input type="text" id="Lastname" maxlength="50" name="Lastname">
         <br>
         <br>
         <label for="email">Email ID</label>
-        <input type="email" id="email" maxlength="50">
+        <input type="email" id="email" maxlength="50" name="email">
         <br>
         <br>
         <label for="phno">Mobile Number</label>
-        <input type="tel" id="phno" maxlength="10">
+        <input type="tel" id="phno" maxlength="10" name="phno">
         <br>
         <br>
-        <label for="Gender">Gender</label>
-        <input type="radio">Male
-        <input type="radio">Female
-        <br>
-        <br>
-        <label for="DOB">Date of Birth(DOB)</label>
-        <input type="date" id="DOB">
-        <br>
-        <br>
-        <label for="Address">Address</label>
-        <br>
-        <textarea name="Address" rows="10" cols="50"></textarea>
-       <br>
-       <br>
-       <label for="City">City</label>
-        <input type="text" id="City" maxlength="50">
-        <br>
-        <br>
-        <label for="Pincode">Pincode</label>
-        <input type="text" id="Lastname" maxlength="6">
-        <br>
-        <br>
-        <label for="State">State</label>
-        <input type="text" id="Lastname" maxlength="50">
-        <br>
-        <br>
-        <label for="Country">State</label>
-        <input type="text" id="Country" maxlength="50">
-        <br>
-        <br>
-        <label>Hobbies</label><br>
-        <input type="checkbox" >
-        <label>Drawing</label>
-        <input type="checkbox" >
-        <label>Singing</label>
-        <input type="checkbox">
-        <label>Dancing</label>
-        <input type="checkbox">
-        <label>Sketching</label>
-        <br>
-        <input type="checkbox" value="Others">
-        <label>Others</label>
-        <input type="text"><br>
-        <br>
-        <label> Qualification</label><br>
-        <input type="checkbox"> 
-        <label>High School(10th)</label><br>
-        <input type="checkbox">
-        <label>Higher School(12th)</label><br>
-        <input type="checkbox" >
-        <label>Graduation(Bachelors)</label>
-        <input type="checkbox">
-        <label>Post Graduation</label> <br>
-        <input type="checkbox" >
-        <label>Phd</label><br>
-       <br>
-       <label>Courses Applied For</label><br>
-       <input type="checkbox"> 
-        <label>BCA (Bachelor of Computer Application)</label><br>
-        <input type="checkbox">
-        <label>B.Com(Bachelor of Commerce)</label><br>
-        <input type="checkbox" >
-        <label>B.Sc(Bachelor of Science)</label><br>
-        <input type="checkbox">
-        <label>BA(Bachelor of Arts)</label> <br>
-        <input type="checkbox" >
-        <label>MCA(Master of  Computer Application)</label><br>
-        <input type="checkbox">
-        <label>M.Com(Master of Commerce)</label><br>
-        <input type="checkbox" >
-        <label>M.Sc(Master of Science)</label><br>
-        <input type="checkbox">
-        <label>MA(Master of Arts)</label> <br>
-        
-<br>
-<input type="Submit">
-<input type="Reset">
-<br>
-             
+                    <label>Gender</label>
+                   <input type="radio" id="Male" name="Gender" >
+                   <label for="Male">Male</label>
+                    <input type="radio" id="Female" name="Gender">
+                    <label for="Female">Female</label>
 
-    </form>
-</fieldset>
-<hr>
-<ol type="1">
-    <li><a href="Netapp_Data_Collector_form.html">Netapp Data Collector Form</a></li>
-    <li><a href="Perfstat_form.html">Perfstat Form</a></li>
-    <li><a href="Registration_details.html">Register_details</a></li>
-    <li><a href="Student_Registration.html">Students Registration Form</a></li>
-    <li><a href="System_information.html">System Information Form</a></li>
-</ol>
-</body>
-</html>
+                    <br>
+                    <br>
+                    <label for="DOB"> Date of Birth(DOB)</label>
+                    <input type="date" id="DOB" name="DOB">
+                    <br>
+                    <br>
+                    <label for="Address"> Address</label>
+                    <br>
+                    <textarea id="Address" name="Address" rows="10" cols="50"></textarea>
+                   <br>
+                   <br>
+                   <label for ="City"> City</label>
+                    <input type="text" id="City" maxlength="50" name="City">
+                    <br>
+                    <br>
+                    <label for="Pincode">Pincode</label>
+                    <input type="text" id="Pincode" maxlength="6" name="Pincode">
+                    <br>
+                    <br>
+                    <label for="State"> State</label>
+                    <input type="text" id="State" maxlength="50" name="State">
+                    <br>
+                    <br>
+                    <label for="Country"> Country</label>
+                    <input type="text" id="Country" maxlength="50" name="Country">
+                    <br>
+                    <br>
+                    <label>Hobbies</label><br>
+                    <input type="checkbox" id="Drawing" name="Hobbies">
+                    <label for="Drawing">Drawing</label>
+                    <input type="checkbox" id="Singing" name="Hobbies">
+                    <label for="Singing">Singing</label>
+                    <input type="checkbox" id="Dancing" name="Hobbies">
+                    <label for="Dancing">Dancing</label>
+                    <input type="checkbox" id="Sketching">
+                    <label for="Sketching">Sketching</label>
+                    <br>
+                    <input type="checkbox" id="Others">
+                    <label for="Others">Others</label>
+                    <input type="text" id="text" name="Others"><br>
+                    <br>
+                    <label> Qualification</label><br>
+                    <input type="checkbox" id="HighSchool(10th)" name="High School(10th)"> 
+                    <label for="HighSchool(10th)">High School(10th)</label><br>
+                    <input type="checkbox" id="HigherSchool(12th)" name="Higher School(12th)">
+                    <label for="HigherSchool(12th)">Higher School(12th)</label><br>
+                    <input type="checkbox" id="Graduation(Bachelors)" name="Graduation(Bachelors)">
+                    <label for="Graduation(Bachelors)">Graduation(Bachelors)</label>
+                    <input type="checkbox" id="PG" name=" PG(Masters)">
+                    <label for="PG">Post Graduation (Masters)</label> <br>
+                    <input type="checkbox" id="Phd" name="Phd">
+                    <label for="Phd">Phd</label><br>
+                   <br>
+                   <label>Courses Applied For</label><br>
+                   <input type="checkbox" id="BCA" name="BCA"> 
+                    <label for="BCA">BCA (Bachelor of Computer Application)</label><br>
+                    <input type="checkbox" id="B.Com" name="B.Com">
+                    <label for="B.Com">B.Com(Bachelor of Commerce)</label><br>
+                    <input type="checkbox"  id="B.Sc" name="B.Sc">
+                    <label for="B.Sc">B.Sc(Bachelor of Science)</label><br>
+                    <input type="checkbox" id="BA" name="BA">
+                    <label for="BA">BA(Bachelor of Arts)</label> <br>
+                    <input type="checkbox" id="MCA" name="MCA">
+                    <label for="MCA">MCA(Master of  Computer Application)</label><br>
+                    <input type="checkbox" id="M.Com" name="M.Com">
+                    <label for="M.Com">M.Com(Master of Commerce)</label><br>
+                    <input type="checkbox" id="M.Sc" name="M.Sc">
+                    <label for="M.Sc">M.Sc(Master of Science)</label><br>
+                    <input type="checkbox" id="MA" name="MA">
+                    <label for="MA">MA(Master of Arts)</label> <br>
+                    
+            <br>
+            <input type="Submit">
+            <input type="Reset">
+            <br>
+            </form>
+            </fieldset>
+            </body>
+            </html>
+                         
+            
+                

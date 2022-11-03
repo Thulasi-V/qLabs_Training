@@ -9,38 +9,38 @@
 <body>
     <form action="Netapp_Data_Collector_form.html">
         <label for="Casenum">Case number :</label>
-        <input type="number" id="Casenum">
+        <input type="number" id="Casenum" name="Casenum">
         <br>
         <br>
         <label for="Controller1">Controller1(IP/Name):</label>
-        <input type="text" id="Controller1">
+        <input type="text" id="Controller1" name="Controller1">
         <br>
         <br>
         <label for="Controller2">Controller2(IP/Name) :</label>
-        <input type="text" id="Controller1">
+        <input type="text" id="Controller2" name="Controller2">
         <br>
         <br>
         <label for="Uname">Username :</label>
-        <input type="text" id="Uname">
+        <input type="text" id="Uname" name="Uname">
         <br>
         <br>
         <label for="pwd">Password :</label>
-        <input type="password" id="pwd">
+        <input type="password" id="pwd" name="pwd">
         <br>
         <br>
         <label for="time">Perfstat time :</label>
-       <select>
+       <select id="time" name="time">
         <option value="15min (3x5 min)">15min (3x5 min)</option>
        </select>
        <br>
        <br>
-       <label for="no of runs" >Number of Runs :</label>
-       <input type="number" id="no of runs"value="1">
+       <label for="noofruns">Number of Runs :</label>
+       <input type="number" id="noofruns" value="1" name="noofruns">
        <label>runs x times the selected perfstat time</label>
        <br>
        <br>
-       <label>Execute :</label>
-       <select>
+       <label for="Execute">Execute :</label>
+       <select id="Execute" name="Execute">
         <option value="Schedule">Schedule</option>
        </select>
        <select>
@@ -86,7 +86,7 @@
         <li><a href="Netapp_Data_Collector_form.html">Netapp Data Collector Form</a></li>
         <li><a href="Perfstat_form.html">Perfstat Form</a></li>
         <li><a href="Registration_details.html">Register_details</a></li>
-        <li><a href="Student_Registration.html">Students Registration Form</a></li>
+        <li><a href="Student_Registration.html">Student Registration Form</a></li>
         <li><a href="System_information.html">System Information Form</a></li>
     </ol>
 </body>
