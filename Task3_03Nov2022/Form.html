@@ -1,1 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form  action="form.html">
+        <h1>Employee Registration Form</h1>
+    <Fieldset>
+        <legend>Personal Information</legend>
+        <br>
+        <label for="Fname">First Name :</label>
+        <input type="text" id="Fname" name="fname" maxlength="30" required>
+        <br>
+        <br>
+        <label for="Mname">Middle Name :</label>
+        <input type="text" id="Mname" name="Mname" maxlength="30">
+        <br>
+        <br>
+        <label for="Lname">Last Name :</label>
+        <input type="text" id="Lname" name="Lname" maxlength="30">
+        <br>
+        <br>
+        <label for="DOB">Date of Birth :</label>
+        <input type="date" id="DOB" name="DOB">
+        <label>Gender</label>
+        <input type="radio" id="male" name="gender">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender">
+        <label for="female">Female</label>
+        <br>
+        <br>
+        <label for="phno">Phone number</label>
+        <input type="text" id="phno" name="phno" maxlength="10">
+        <br>
+        <br>
+        <label for="Fathername">Father Name :</label>
+        <input type="text" id="Fathername" name="fathername" maxlength="30" >
+        <br>
+        <br>
+        <label for="mothername">Mother Name :</label>
+        <input type="text" id="mothername" name="mothername" maxlength="30" >
+        <br>
+        <br>
+    </Fieldset>
+    <br>
+    <br>
+    <fieldset>
+        <legend>Address</legend>
 
+        <label for="Address"> Permanent Address :</label>
+                    <br>
+                    <textarea id="Address" name="Address" rows="6" cols="40"></textarea>
+                   <br>
+                   <br>
+                   <label for="PresentAddress"> Present Address :</label>
+                    <br>
+                    <textarea id="PresentAddress" name="Address" rows="6" cols="40"></textarea>
+                   <br>
+                   <br>
+                   <label for="Pincode">Pincode :</label>
+                   <input type="text" id="Pincode" maxlength="6" name="Pincode">
+                   <br>
+                   <br>
+                    <label for="State"> State :</label>
+                    <select id="State" name="State"> 
+                        <option value="Karnataka">Karnataka</option>
+                        <option value="Delhi">Delhi</option>
+                        <option value="Andhra Pradesh">Andhra Pradesh</option>
+                    </select>
+                    <br>
+                    <br>
+                    <label for="Country"> Country :</label>
+                    <select id="Country" name="Country">
+                    <option value="India">India</option>
+                    <option value="USA">USA</option>
+                    <option value="Singapore">Singapore</option>
+                    </select>
+                    <br>
+                    <br>
+                    <label for="adhar">Aadhaar Card: </label>
+                    <input type="file" id="adhar">
+                    <br>
+     </fieldset>
+     <br>
+     <br>
+     <fieldset>
+        <legend>Qualification</legend>
+        <label for="10th">10th std:</label>
+        <input type="text" id="10th" name="10thstd">
+        <label for="Yop">Year of Passout:</label>
+        <input type="text" id="Yop" name="Yop">
+        <input type="file">
+        <br>
+        <br>
+        <label for="12th/Diploma">12th/Diploma:</label>
+        <input type="text" id="12th/Diploma" name="12th/Diploma">
+        <label for="Yopdiploma">Year of Passout:</label>
+        <input type="text" id="Yopdiploma" name="Yop">
+        <input type="file">
+        <br>
+        <br>
+        <label for="Degree">Degree:</label>
+        <input type="text" id="Degree" name="Degree">
+        <label for="Yop_degree">Year of Passout:</label>
+        <input type="text" id="Yop_degree" name="Yop">
+        <input type="file">
+        <br>
+        <br>
+        <label for="Other_courses">Other Courses</label>
+        <input type="text" id="Other_courses" placeholder="e.g.-training">
+        <input type="file">
+     </fieldset>
+     <br>
+     <br>
+     <fieldset>
+        <legend>Other Information</legend>
+        <label for="Technical_Skill"> Technical Skill :</label>
+            <select id="Technical_Skill" name="Technical_Skill">
+            <option value="Programming Language">Programming Language</option>
+            <option value="SQL">SQL</option>
+             <option value="HTML">HTML</option>
+         </select>
+         <br>
+         <br>
+         <label for="Hobbies"> Hobbies :</label>
+            <select id="Hobbies" name="Technical_Skill">
+            <option value="Singing">Singing</option>
+            <option value="Dancing">Dancing</option>
+             <option value="Sketching">Sketching</option>
+         </select>
+         <br>
+         <br>
+         <label for="others">Others</label>
+         <input type="text" id="others" name="others">
+         <br>
+         <br>
+         <label>Languages Known</label>
+         <br>
+         <input type="checkbox" id="eng" name="lang">
+         <label for="eng">English</label>
+         <br>
+         <input type="checkbox" id="hin" name="lang">
+         <label for="hin">Hindi</label>
+         <br>
+         <input type="checkbox" id="kan" name="lang">
+         <label for="kan">Kannada</label>
+         <br>
+         <input type="checkbox" id="otherslang" name="lang">
+         <label for="otherslang">Others</label>
+         <input type="text">
+         <br>
+         <br>
+        <label>Work Experience</label><br>
+        <input type="checkbox" id="fresher" name="lang">
+        <label for="fresher">Fresher</label> 
+        <br>
+        <input type="checkbox" id="Experienced" name="lang">
+        <label for="Experienced">Experienced</label>
+        <label for="YOE">Years of Experiences</label>
+        <input type="number" id="YOE">
+        <br>
+        <br>
+        <label for="Resume">Resume :</label>
+        <input type="file" id="Resume">
+        <label>(pdf)</label>
+        <br>
+        <br>
+        <label for="Photo">Photo :</label>
+        <input type="file" id="Photo">
+        <label>(max 40KB)</label>
+        <br>
+        <br>
+        <label for="Signature">Signature :</label>
+        <input type="file" id="Signature">
+        <label>(max 40KB)</label>
+    </fieldset>
+    <br>
+    <fieldset>
+    <legend>Company Details</legend>
+    <label>Address:</label>
+    <address>No 628/a, Software Industry Ngf, 1st Stage, <br>Indiranagar, Bengaluru, Karnataka 560038</address>
+    </fieldset>
+
+</form>
+</body>
+</html>
