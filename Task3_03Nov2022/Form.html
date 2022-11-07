@@ -13,15 +13,15 @@
         <legend>Personal Information</legend>
         <br>
         <label for="Fname">First Name :</label>
-        <input type="text" id="Fname" name="fname" maxlength="30" required>
+        <input type="text" id="Fname" name="fname" maxlength="30" required  placeholder="First Name">
         <br>
         <br>
         <label for="Mname">Middle Name :</label>
-        <input type="text" id="Mname" name="Mname" maxlength="30">
+        <input type="text" id="Mname" name="Mname" maxlength="30" placeholder="Middle Name">
         <br>
         <br>
         <label for="Lname">Last Name :</label>
-        <input type="text" id="Lname" name="Lname" maxlength="30">
+        <input type="text" id="Lname" name="Lname" maxlength="30" placeholder="Last Name"> 
         <br>
         <br>
         <label for="DOB">Date of Birth :</label>
@@ -33,8 +33,10 @@
         <label for="female">Female</label>
         <br>
         <br>
+        <label for="mail">Mail id :</label>
+        <input type="email" id="mail" placeholder="Enter Your Valid Email">
         <label for="phno">Phone number</label>
-        <input type="text" id="phno" name="phno" maxlength="10">
+        <input type="tel" id="phno" name="phno" maxlength="10">
         <br>
         <br>
         <label for="Fathername">Father Name :</label>
@@ -67,9 +69,9 @@
                    <br>
                     <label for="State"> State :</label>
                     <select id="State" name="State"> 
-                        <option value="Karnataka">Karnataka</option>
-                        <option value="Delhi">Delhi</option>
-                        <option value="Andhra Pradesh">Andhra Pradesh</option>
+                    <option value="Karnataka">Karnataka</option>
+                     <option value="Delhi">Delhi</option>
+                    <option value="Andhra Pradesh">Andhra Pradesh</option>
                     </select>
                     <br>
                     <br>
@@ -89,29 +91,33 @@
      <br>
      <fieldset>
         <legend>Qualification</legend>
-        <label for="10th">10th std:</label>
-        <input type="text" id="10th" name="10thstd">
+        <label for="10th">10th std:</label>&emsp;&emsp;&emsp;&nbsp;
+        <input type="text" id="10th" name="10thstd" placeholder="Percentage">
         <label for="Yop">Year of Passout:</label>
         <input type="text" id="Yop" name="Yop">
-        <input type="file">
+        <label>Upload Certificate</label>
+        <input type="file"  accept=".pdf">
         <br>
         <br>
-        <label for="12th/Diploma">12th/Diploma:</label>
-        <input type="text" id="12th/Diploma" name="12th/Diploma">
+        <label for="12th/Diploma">12th/Diploma:</label>&emsp;
+        <input type="text" id="12th/Diploma" name="12th/Diploma" placeholder="Percentage">
         <label for="Yopdiploma">Year of Passout:</label>
         <input type="text" id="Yopdiploma" name="Yop">
-        <input type="file">
+        <label>Upload Certificate</label>
+        <input type="file"  accept=".pdf">
         <br>
         <br>
-        <label for="Degree">Degree:</label>
-        <input type="text" id="Degree" name="Degree">
+        <label for="Degree">Degree:</label>&emsp;&emsp;&emsp;&nbsp;&nbsp;
+        <input type="text" id="Degree" name="Degree" placeholder="Percentage/CGPA">
         <label for="Yop_degree">Year of Passout:</label>
         <input type="text" id="Yop_degree" name="Yop">
-        <input type="file">
+        <label>Upload Certificate</label>
+        <input type="file" accept=".pdf">
         <br>
         <br>
-        <label for="Other_courses">Other Courses</label>
+        <label for="Other_courses">Other Courses</label>&emsp;
         <input type="text" id="Other_courses" placeholder="e.g.-training">
+        <label>Upload Certificate</label>
         <input type="file">
      </fieldset>
      <br>
@@ -119,26 +125,33 @@
      <fieldset>
         <legend>Other Information</legend>
         <label for="Technical_Skill"> Technical Skill :</label>
-            <select id="Technical_Skill" name="Technical_Skill">
-            <option value="Programming Language">Programming Language</option>
-            <option value="SQL">SQL</option>
-             <option value="HTML">HTML</option>
+        <input type="checkbox" id="Java">
+        <label for="Java">HTML</label>
+        <input type="checkbox" id="Python">
+        <label for="">Python</label>
+        <input type="checkbox" id="HTML">
+        <label for="HTML">HTML</label> 
+        <input type="checkbox" id="JavaScript">
+        <label for="JavaScript">JavaScript</label>
+        <br>
+         <label for="Techskills">Others :</label>
+         <input type="text" id="Techskills" name="Techskills"> 
          </select>
          <br>
          <br>
          <label for="Hobbies"> Hobbies :</label>
-            <select id="Hobbies" name="Technical_Skill">
-            <option value="Singing">Singing</option>
-            <option value="Dancing">Dancing</option>
-             <option value="Sketching">Sketching</option>
-         </select>
+            <input type="checkbox" id="Singing">
+            <label for="Singing">  Singing</label>
+            <input type="checkbox" id="Dancing">
+            <label for="Dancing">Dancing</label>
+            <input type="checkbox" id="Sketching">
+            <label for="Sketching">Sketching</label> 
          <br>
-         <br>
-         <label for="others">Others</label>
+         <label for="others">Others :</label>
          <input type="text" id="others" name="others">
          <br>
          <br>
-         <label>Languages Known</label>
+         <label>Languages Known :</label>
          <br>
          <input type="checkbox" id="eng" name="lang">
          <label for="eng">English</label>
@@ -159,33 +172,38 @@
         <label for="fresher">Fresher</label> 
         <br>
         <input type="radio" id="Experienced" name="lang">
-        <label for="Experienced">Experienced</label>
+        <label for="Experienced">Experienced</label>&ensp;
         <label for="YOE">Years of Experiences</label>
-        <input type="number" id="YOE">
+        <input type="number" id="YOE" min="1" max="60">
         <br>
         <br>
-        <label for="Resume">Resume :</label>
-        <input type="file" id="Resume">
+        <label for="Resume">Resume :</label>&nbsp;
+        <input type="file" id="Resume" accept=".pdf" >
+        <br>
         <label>(pdf)</label>
         <br>
         <br>
-        <label for="Photo">Photo :</label>
-        <input type="file" id="Photo">
-        <label>(max 40KB)</label>
+        <label for="Photo">Photo :</label>&nbsp;&nbsp;&nbsp;
+        <input type="file" id="Photo" accept=".jpg">
+        <br>
+        <label>(max 40kb)</label>
         <br>
         <br>
         <label for="Signature">Signature :</label>
-        <input type="file" id="Signature">
-        <label>(max 40KB)</label>
+        <input type="file" id="Signature" accept=".jpg">
+<br>
+        <label>(max 40kb)</label>
     </fieldset>
     <br>
     <fieldset>
     <legend>Company Details</legend>
     <label>Address:</label>
     <address>No 628/a, Software Industry Ngf, 1st Stage, <br>Indiranagar, Bengaluru, Karnataka 560038</address>
+    <a href="https://www.qualesce.com/">About us</a>
     </fieldset>
     <br>
     <input type="submit">
+    
 
 </form>
 </body>
