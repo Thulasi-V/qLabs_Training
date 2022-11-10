@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin:0 auto;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+
+    font-family: 'MuseoModerno', rounded,cursive;
+}
+
+.sec1Container{
+    background-color:whitesmoke;
+    text-align: center;
+}
+/* Div 1 section  */
+
+.sec1Wrapper{
+    max-width: 1200px;
+}
+.sec1Container h2{
+    font-size: 60px;
+    font-weight: 200; 
+}
+.sec1Art1 h3{
+    font-size: 60px;
+    font-weight: 200; 
+    color: rgb(96, 182, 84);
+    margin-bottom: 20px;
+}
+.sec1Art1 p{
+    font-size: 20px;
+color: grey;
+    line-height: 1.4;
+    font-weight: 200;
+    margin-bottom: 30px;
+    border: none;
+  
+}
+
+.Download{
+    color:white;
+    font-size: 20px;
+    background-color: rgb(50, 190, 50);
+    border-radius: 30px;
+    padding: 8px 40px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.Download:hover{
+    background-color: rgb(57, 145, 57);
+}
+.linkToPages p{
+    margin: 20px;
+    color: grey;
+  
+}
+.linkInfo{
+    margin: 20px;
+    color:#556575;
+    border: none;
+}
