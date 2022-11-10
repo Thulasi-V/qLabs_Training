@@ -61,6 +61,7 @@ color: grey;
 }
 .linkInfo{
     margin: 20px;
-    color:#556575;
-    border: none;
+    color:#2e72b6;
+   text-decoration: none;
+  
 }
