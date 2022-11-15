@@ -13,19 +13,17 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 /*Header CSS starts*/
-.headerContainer {
+/* .headerContainer {
     /* background-color: rgb(220, 215, 250); */
-    text-align: center;
-}
 
+/*Header CSS ends*/
+
+/*Wrapper starts*/
 .headerWrapper{
     text-align: center;
     background-color: rgb(220, 215, 250);
     
 }
-/*Header CSS ends*/
-
-/*Wrapper starts*/
 .headerWrapper,
 .sectionWrapper{
     max-width: 1200px;
@@ -72,8 +70,9 @@ margin: 10px 60px 0 60px;
     margin: 5px;
 }
 .sectionWrapper article{
+   
     background-color: rgb(214, 206, 223);
-    box-shadow: -2px -2px 17px -1px whitesmoke ;
+    box-shadow: 10px -2px 17px -1px grey;
     padding: 0 0 20px 0;
 }
 
@@ -83,8 +82,7 @@ margin: 10px 60px 0 60px;
     margin: 0 0 20px 0;
    word-spacing: 2px;
    line-height: 1.4;
-  
-    
+ 
 } 
 
 /*anchor CSS starts*/
