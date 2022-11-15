@@ -22,8 +22,9 @@ body{
 .headerWrapper{
     text-align: center;
     background-color: rgb(220, 215, 250);
-    
+    padding: 15px; 
 }
+
 .headerWrapper,
 .sectionWrapper{
     max-width: 1200px;
