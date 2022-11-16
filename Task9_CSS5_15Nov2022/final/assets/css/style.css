@@ -9,11 +9,12 @@ body {
   font-family: "MuseoModerno", rounded, cursive;
 
 }
- .headerContainer{
-  /* display: block; 
+ /* .headerContainer{
+  display: block; 
 text-align: center;  */
-} 
+ }
 
+f
 /*Header Starts*/
 .headerH1{
   font-size: 30px;
@@ -67,8 +68,6 @@ padding: 30px 0 20px 0;
 .button:hover { 
   background-color: #005a87;
   box-shadow: 1px 2px 2px 2px gray;
-
-
 }
 
 
