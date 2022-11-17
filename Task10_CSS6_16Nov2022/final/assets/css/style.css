@@ -62,8 +62,13 @@ span a{
  text-decoration: none;
  padding: 10px;
 margin:0 1% 0 30%;
+color: rgb(78, 76, 76);
 
 }
+.pwd:hover{
+    color:#059862 ;
+}
+
 
 input{
     width: 420px;
