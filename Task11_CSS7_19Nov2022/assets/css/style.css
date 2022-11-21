@@ -1,38 +1,38 @@
-/* *{
+*{
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
-} */
+} 
 
 /*jQuery CSS begins*/
-/* .navBar{
+.navBarjQuery{
     margin: 50px;
     background-color: rgba(238, 230, 211, 0.733);
     width: 100px;
-} */
-/* .navBar img{
+} 
+.navBarjQuery img{
    border: 2px solid rgb(100, 96, 96);
    background-color: pink;
-} */
+} 
 
-/* .navBar li {
+.navBarjQuery li {
     list-style-type: none;
-} */
- /* .navBar a{
+} 
+ .navBarjQuery a{
     display: inline-block;
     text-decoration: none;
     color: black;
    padding: 5px;
- /* border: 2px solid greenyellow; */
+ }
    
 
- /* .navBar a:hover{
+ .navBarjQuery a:hover{
     color: coral;
- } */
+ }
  /*jQuery CSS ends*/
 
 /* Navigation bar CSS starts*/
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
 *{
     margin: 0;
     box-sizing: border-box;
@@ -41,37 +41,36 @@ body{
     font-family: 'Source Sans Pro', sans-serif;
 }
 .wrapperNav{
-    /* max-width: 1300px; */
-    width: 100%;
-    margin: 0 auto;
-    /* position: sticky;
-    top: 0; */
+ max-width: 1300px; 
+   width: 100%;
+    margin: 0 auto; 
+     position: sticky;
+    top: 0; 
     
-}
-.navBar{
+ } 
+ .navBar{
     background-color:#282A35;
     display: flex;  
     
-}
+} 
 
-.navBar a {
+ .navBar a {
 text-decoration: none;
 color: white;
 font-weight: 600;
-border: 2px solid red;
 padding: 15px 15px 10px 15px;
 
 
-}
+} 
 
 .navBar a:hover{
     background-color: black;
 
-}
+} 
 
-.imgMode,
+ .imgMode,
 .imgTranslate{
     position: relative;
     left: 10%;
 }
-
+ 
