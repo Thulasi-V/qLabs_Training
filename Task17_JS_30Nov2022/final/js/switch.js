@@ -57,7 +57,9 @@ function Submit(){
     // console.log(res);
     document.getElementById("value").innerHTML=num;
     document.getElementById("result").innerHTML=total;
+   
  }
+ document.getElementById("num").value="";
 }
 
 
