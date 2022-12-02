@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form_Js</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <section>
+    <form >
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" required><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" required><br>
+
+        <input type="radio" id="res1" name="education" onclick="result1()">
+        <label for="res1">10th</label>
+
+        <input type="radio" id="res2" name="education"  onclick="result2()">
+        <label for="res2">PUC/Diploma</label>
+
+        <input type="radio" id="res3" name="education"  onclick="result3()">
+        <label for="res3">BE/Btech</label><br>
+
+        <input type="number" id="cgpa"  step="0.01" disabled>
+        <label for="cgpa">% or cgpa</label>
+        <br>
+
+        <label for="mail">Mail Id:</label><br>
+        <input type="email" id="mail" name="mail" required>
+        <br>
+        <label for="hobbies">Hobbies</label>
+        <div class="flex_box">
+        
+        <div class="box1">
+        <input type="checkbox" id="sing" checked value="Singing">
+        <label for="sing">Singing</label><br>
+        <input type="checkbox" id="dance"  value="Dancing">
+        <label for="dance">Dancing</label><br>
+        <input type="checkbox" id="cooking" value="Cooking">
+        <label for="cooking">Cooking</label><br>
+        <input type="checkbox" id="swim" value="Swimming">
+        <label for="swim">Swimming</label><br>
+        <input type="checkbox" id="paint" value="Painting">
+        <label for="paint">Painting</label>
+    </div>
+
+    <div class="box2">
+        <input type="checkbox" id="art_craft" value="Art & Craft">
+        <label for="art_craft">Art & Craft</label><br>
+        <input type="checkbox" id="novel_reading" value="Novel & Reading">
+        <label for="novel_reading">Novel & Reading</label><br>
+        <input type="checkbox" id="gardening" value="Gardening">
+        <label for="gardening">Gardening</label><br>
+        <input type="checkbox" id="writing" value="Creative Writing">
+        <label for="writing">Creative Writing</label><br>
+        <input type="checkbox" id="theatre_plays" value="Theatre & Plays">
+        <label for="theartre">Theatre & Plays</label><br>
+    </div>
+
+</div>  
+ <input type="submit" onclick="Submits()" class="submit">
+        <!-- <button onclick="Submits()" class="submit">Submit</button> -->
+        <p><strong id="message"></strong></p>
+        
+    </form>
+</section>
+    
+
+</body>
+<script src="js/formjs.js"></script>
+</html>
