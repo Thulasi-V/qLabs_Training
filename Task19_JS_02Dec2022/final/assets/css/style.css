@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    max-width: 1200px;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+form{
+    margin: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    box-shadow: -2px 3px 21px 3px gray;
+    padding: 30px;
+    background-color:rgba(124, 174, 190, 0.418) ;
+    width: 500px;
+    height: 700px;
+  }
+
+  .container label{
+    font-size: 16px;
+    margin-left: 5px;
+
+  }
+.boxText{
+    width: 200px;
+    padding: 6px;  
+    margin: 0 0 0 10px; 
+}
+input{
+    outline:none;
+}
+
+input[type="radio"]{
+    display: none;
+}
+/* radio button css */
+.edu1,
+.board{
+   background-color: rgba(100, 189, 182, 0.445);
+   position: relative;
+   top: 15px;
+   bottom: 10px;
+   font-family: 'Poppins', sans-serif;
+   border:  2px solid lightblue;
+   padding: 3px;
+   border-radius: 10px;
+   align-items: center;
+
+}
+.mailIdBox{
+    width: 200px;
+    padding: 3px;
+}
+
+/* placeholder css */
+.scoreInput{
+    position: relative;
+    top: 20px;
+    bottom: 20px;
+    padding: 3px;
+    width: 200px;
+    margin-top: 10px;
+}
+/* .edu1 {
+    background-color: burlywood;
+} */
+.edu1:before{
+    position: absolute ;
+    content: "";
+    /* height: 10px;
+    width: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 2% 5% 0 0; */
+
+}
+.board:before{
+    position: absolute;
+    content: "";
+}
+
+ 
+input:checked + .edu1{
+    background-color: rgb(100, 189, 182);  
+
+} input[type="radio"] :checked+ .board{
+    background-color: rgb(100, 189, 182);  
+
+ } 
+
+/* css board selection */
+/* .board{
+    display: none;
+} */
+
+
+
+
+ 
+ .flex_box{
+    display: flex;
+    margin: 0; 
+
+}
+
+.box1,
+label ,
+.box2,label{
+    margin: 10px;
+    padding: 0px;
+}
+
+
+/* popup css  details */
+
+.popup .card{
+    position: fixed;
+    background-color:rgba(0,0,0,0.7); 
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    /* display: none; */
+}
+
+ .popup .displayContent{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0);
+    background-color: rgb(227, 238, 238);
+    border-left: 5px solid lightseagreen;
+    width: 350px;
+    height: 250px ;
+    z-index: 2;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box; 
+}  
+
+.popup .close_btn{
+    position: fixed;
+    left: 5px;
+    top: 5px;
+    width: 20px;
+    height: 20px;
+    color: lightseagreen;
+    margin: 0;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    cursor: pointer;
+}
+
+.popup.active .card{
+    display: block;
+}
+
+.popup.active .displayContent{
+    transition: all 300ms ease-in-out;
+    transform: translate(-50%,-50%) scale(1);
+}  
+
+.submit{
+    margin: 10px 10px 10px 0px;
+   padding: 10px 20px;
+   border-radius: 20px;
+   border: none;
+   font-size: 17px;
+   font-weight: 600;
+   cursor: pointer;
+   background-color:lightseagreen;
+  }  
