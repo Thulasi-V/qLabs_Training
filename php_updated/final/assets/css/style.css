@@ -1,0 +1,526 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    /* background-color: #CC6121; */
+  
+}
+/* .container1{
+overflow: hidden; 
+} */
+
+/* nav bar css starts */
+
+/* a{
+    color: #5EB4D0;
+} */
+ .navPhp{
+  background-color: goldenrod;
+  position: sticky;
+  top: 0; 
+}
+
+.navBar{
+    max-width: 1200px;
+} 
+body{
+    overflow-x: hidden;
+}
+.hamBurgerMenu{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;  
+}
+
+#hamMenu {
+   position: relative;
+   right: 15%;
+   width: 40px;
+   background-color: white;
+   padding: 5px;
+   border-radius: 100%;
+   /* align-self: left; */
+}
+/* .hamBurgerMenu img{
+    position: relative;
+    right: 12%;
+} */
+#logo{
+    position: relative;
+    right: 53%;
+    width: 70px;
+    align-self: center;
+}
+.hamBurgerMenu img:hover{
+    cursor: pointer;
+
+}
+.container .logo {
+     margin: 0 10% 0 0;
+    position: relative;
+    
+}
+
+.searchBox
+{
+position: absolute;
+right: 10%;
+left: 60%;
+margin: 10px;
+align-self: center;
+
+/* bottom: 10%; */
+width: 300px;
+padding: 10px 20px;
+border-radius: 40px;
+border: none;
+outline: none;
+}
+.search_btn {
+    background: none;
+    position: absolute;
+   left: 80%;
+    bottom: 5%; 
+    top: 10px;
+}
+
+button{
+    background: none;
+    border: none;
+}
+
+.contactus{
+    background-color:#07122E;
+    font-size: 15px;
+    padding: 7px 20px; 
+    border-radius: 40px;
+    border: none;
+    position: relative;
+   left: 10%;
+    border: 2px solid white;
+    color: white;
+    align-self: center;
+}
+
+.contactus:hover{
+    cursor: pointer;
+    background-color: #039bcd8f;
+}
+
+.logo{
+    position: absolute;
+   left: 3%;
+   margin-top: 4px;
+}
+
+
+.menuList {
+   background-color:whitesmoke;
+   box-shadow: -1px -1px 16px -5px goldenrod;
+    display: none;
+    position: fixed;
+    
+      left: 0%;
+      top: 0%;
+      margin: 5% 0 0 0;
+} 
+
+.menuList li{
+   list-style-type:none ;
+   margin: 5px 20px 0px 0px;
+   /* border: 2px solid black;  */
+   
+}
+.heading {
+    font-weight: 500;
+   margin: 10px 50px 0 0px;
+   
+}
+.menuList li a{
+    text-decoration: none;
+    font-size: 15px;
+    text-align: left;
+    margin-left: 10px;
+    padding: 0 5px;
+    color: black;
+}
+.menuList li:before{
+    content: '✓' ;
+    text-align: left;
+    padding: 0 0 0 10px;
+}
+
+.menuList a:hover{
+    color: #9c7217;
+    border-bottom: 1px solid;
+    padding: 0 0 5px 0;
+    
+}
+
+.menuList{
+    position: absolute;
+    top: 5%;
+}
+.menuList.active{
+    display:block;
+    transition: width 2s;
+ 
+}
+/* nav bar css ends*/
+
+/* header css starts */
+
+.header {
+    text-align: center;
+    background-color: whitesmoke;
+    font-family: 'MuseoModerno', cursive;
+    padding: 0 0 30px 0;
+}
+
+ h1 {
+    font-size: 60px; 
+   word-spacing: 30px;
+   color: #CC6121;
+   text-align: center;
+    font-family: 'MuseoModerno', cursive;
+} 
+.header p {
+    
+    font-size: 20px;
+    padding:10px 0 0 0;
+    /* background-color: antiquewhite; */
+    line-height: 1.8;
+    color:black;
+}
+.header button {
+    margin: 30px 30px 0 0;
+  /* padding: 7px 20px; */
+  padding: 10px 10px 10px 10px;
+    width: 110px;
+    border-radius: 40px;
+    font-size: 15px;
+    border: none;
+    font-weight: 800;
+    color: white;
+    background-color: #030923;
+    font-size: 18px;
+  
+}
+.header button:hover {
+    background-color: #030923a2;
+    border: none;
+    
+}
+
+
+.preparationTask{
+    padding: 10px 0 0 0;
+    
+}
+.wrapper1{
+    max-width: 1200px;
+
+}
+
+.preparationTask ul li{ 
+/* margin: 0 0 0 0; */
+display: inline-block;
+padding: 15px;
+font-size: 17px;
+text-align: center;
+
+}
+/* .preparationTask{
+    /* background-color: #9c7217;
+    display: inline-block; */
+/* } */ 
+
+ .preparationTask li:before{
+    content: '✓' ;
+    /* padding: 5px;   */
+}
+
+
+.preparationTask h2 {
+     font-size: 20px; 
+     font-weight: 500; 
+    /* margin: 40px 0 20px 30px; */
+    /* padding: 0 0 0 0; */
+ 
+}
+.h2{
+    background-color: lightslategray;
+    
+  
+}
+ .h2 h2{
+    max-width: 1200px;
+} 
+/* ul li {
+    margin-bottom: 20px;
+    font-size: 20px;
+    margin-left: 50px;
+    
+} */
+/* .timetable {
+     margin: 15px 0 0 45px;
+    
+} */
+.timetable h2 {
+ font-size: 20px;
+ font-weight: 500;
+
+} 
+.timeTableWrap2{
+ background-color: lightslategray; 
+}
+.timetable p{
+    font-size: 17px;
+    padding: 10px 0 10px 0;
+    /* margin: 20px 0; */
+}
+.timetable li{
+    padding: 5px 5px 10px 5px;
+    /* margin: 0 0 5px 10px; */
+   
+}
+
+.timetable ul{
+    margin: 0 0 0 50px;
+    padding: 0 0 30px 0;
+}
+
+.timetable_art1 table {
+    border-collapse: collapse;
+    width: 70%; 
+    margin: 0 0 3% 15%;
+    font-family: 'Poppins', sans-serif;
+  
+  }
+  .table0 th{
+    background-color: grey;
+  }
+  .timetable_art1 td, th {
+    border-collapse: collapse;
+    border: 2px solid grey ;
+    text-align: left;
+    padding: 8px;
+    width: 50%; 
+  }
+
+  .table0 a:hover{
+     color: red;}
+  
+  /* .timetable_art1 tr:nth-child(even) {
+     background-color:#b4bcc9e3; 
+     color: white; 
+  }  */
+  .volunteers{
+    /* margin: 10px 0 0 40px; */
+    
+  }
+.volunteers h2{
+    font-size: 20px;
+    font-weight: 500;
+
+
+}
+.volunteers p{
+    font-size: 17px;
+    margin-top: 20px;
+}
+.voluteersDiv{
+display: flex;
+}
+.volunteers a:hover{
+    color: red;
+    text-decoration: none;
+
+}
+.voluteersDiv article {
+    width: 400px;
+    background-color: whitesmoke;
+    padding: 30px 15px 10px 15px;
+    border-radius: 30px;
+    box-shadow: -1px -1px 16px -5px goldenrod;
+    /* margin:  0 0 0 140px; */
+    /* background-color:#030923; */
+    /* color: white; */
+}
+.voluteersDiv article h3{
+font-size: 25px;
+}
+.voluteersDiv article ul{
+    margin: 20px 0 0 20px;
+}
+.voluteersDiv article ul li{
+    padding: 5px;
+}
+.voluteersDiv {
+margin: 20px 0 40px 0;
+}
+.voting h2{
+    /* margin: 40px 0 0 40px; */
+    font-size: 20px;
+    font-weight: 500;
+
+}
+.voting p{
+    font-size: 17px;
+    margin-top: 20px;
+}
+.preference {
+    display: flex;
+    /* margin: 10px 0 0 10px; */
+    /* background-color: #9c7217; */
+}
+
+.content{
+    margin: 30px 0 0 0;
+}
+.content h2{
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+.content p {
+   font-size: 18px; 
+   /* background-color: red; */
+   padding: 0 0 10px 0;
+   
+
+}
+.table p{
+    text-align: right;
+    margin: 10px 20px 0 0;
+}
+
+/* .table0, */
+.table1,
+.table2,
+.table3,
+.table4,
+.table5,
+.table6,
+.table7 {
+  max-width: 1200px;
+ margin: 0 2% 0 0;
+  /* border: px solid grey; */
+ background-color: grey;
+  padding: 5px;
+  /* width: 100px; */
+}
+/* .table0 td, */
+.table1 td,
+.table2 td,
+.table3 td,
+.table4 td,
+.table5 td,
+.table6 td,
+.table7 td {
+  font-weight: 500;
+  padding: 10px 20px;
+  background-color: white;
+ 
+}
+/* 
+.table1 td a,
+.table2 td a,
+.table3 td a,
+.table4 td a,
+.table5 td a,
+.table6 td a,
+.table7 td a:{
+    color: red;
+
+} */
+/* .table0, */
+.table1 th,
+.table2 th,
+.table3 th,
+.table4 th,
+.table5 th,
+.table6 th,
+.table7 th {
+  font-weight: 500;
+  /* margin: 0 2% 0 0; */
+  padding: 10px 30px;
+  text-align: center;
+  /* background-color: grey; */
+  /* border: 2px solid grey; */
+  /* border-collapse: collapse; */
+}
+#imgcenter{
+    text-align: center;
+}
+.finalRes  td{
+    background-color: lightgray;
+}
+#final{
+    text-align: center;
+}
+/* th:hover,
+td:hover{
+border: 2px solid #CD6222;
+} */
+#pollEnd {
+    text-align: center;
+    margin: 0 50px 0 0;
+}
+
+/* footer css starts */
+footer {
+background-color:whitesmoke;
+color: black;
+}
+footer h2 {
+    font-size: 150px;
+    opacity: 0.1;
+    text-align: center;
+}
+footer p {
+    color: black;
+}
+/* .copyright {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+
+
+} */
+.footerPara  p{
+    display: inline-block;
+    margin-right: 40px;
+    margin-bottom: 20px;
+}
+
+.footer img {
+    width: 25px;
+    position: relative;
+    bottom: -30px;
+    right: -60px;
+}
+
+
+
+.img{
+margin: 0 0 0 85%;
+padding: 0 10px 0 10px;
+} 
+ /* .img {
+    position: relative;
+    left: 70em;
+    top: 40px;
+ 
+} */
+.img img {
+    margin-left: 10px;
+} 
