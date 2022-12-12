@@ -13,27 +13,37 @@ body{
     /* background-color: #CC6121; */
   
 }
-/* .container1{
+
+.container1{
 overflow: hidden; 
-} */
+}
 
 /* nav bar css starts */
 
-/* a{
+a{
     color: #5EB4D0;
-} */
- .navPhp{
+} 
+
+.navPhp{
   background-color: goldenrod;
   position: sticky;
-  top: 0; 
+  top: 0;
+} 
+
+
+.nav{
+    position: sticky;
+    top: 0;
 }
 
 .navBar{
     max-width: 1200px;
 } 
+
 body{
     overflow-x: hidden;
 }
+
 .hamBurgerMenu{
     display: flex;
     justify-content: space-between;
@@ -49,24 +59,25 @@ body{
    border-radius: 100%;
    /* align-self: left; */
 }
-/* .hamBurgerMenu img{
+.hamBurgerMenu img{
     position: relative;
     right: 12%;
-} */
+} 
 #logo{
     position: relative;
     right: 53%;
     width: 70px;
     align-self: center;
 }
+
 .hamBurgerMenu img:hover{
     cursor: pointer;
 
 }
+
 .container .logo {
      margin: 0 10% 0 0;
-    position: relative;
-    
+    position: relative;   
 }
 
 .searchBox
@@ -84,6 +95,7 @@ border-radius: 40px;
 border: none;
 outline: none;
 }
+
 .search_btn {
     background: none;
     position: absolute;
@@ -99,20 +111,25 @@ button{
 
 .contactus{
     background-color:#07122E;
+    border: none;
     font-size: 15px;
-    padding: 7px 20px; 
+    padding: 8px 20px; 
     border-radius: 40px;
     border: none;
     position: relative;
-   left: 10%;
-    border: 2px solid white;
+   left: 15%;
+   border: 1px solid white; 
     color: white;
     align-self: center;
 }
 
 .contactus:hover{
     cursor: pointer;
-    background-color: #039bcd8f;
+    background-color: white;
+    color: black;
+    font-size: 17px;
+    box-shadow: -1px -1px 16px -5px white;
+    
 }
 
 .logo{
@@ -215,8 +232,12 @@ button{
   
 }
 .header button:hover {
-    background-color: #030923a2;
-    border: none;
+    /* background-color: #030923a2;
+    border: none; */
+    background-color: white;
+    color: black;
+    font-size: 17px;
+    /* box-shadow: -1px -1px 16px -5px white; */
     
 }
 
@@ -305,9 +326,11 @@ text-align: center;
     font-family: 'Poppins', sans-serif;
   
   }
+
   .table0 th{
     background-color: grey;
   }
+
   .timetable_art1 td, th {
     border-collapse: collapse;
     border: 2px solid grey ;
@@ -323,28 +346,29 @@ text-align: center;
      background-color:#b4bcc9e3; 
      color: white; 
   }  */
-  .volunteers{
+ 
     /* margin: 10px 0 0 40px; */
     
-  }
+  
 .volunteers h2{
     font-size: 20px;
     font-weight: 500;
-
-
 }
+
 .volunteers p{
     font-size: 17px;
     margin-top: 20px;
 }
+
 .voluteersDiv{
 display: flex;
 }
+
 .volunteers a:hover{
     color: red;
     text-decoration: none;
-
 }
+
 .voluteersDiv article {
     width: 400px;
     background-color: whitesmoke;
@@ -355,15 +379,19 @@ display: flex;
     /* background-color:#030923; */
     /* color: white; */
 }
+
 .voluteersDiv article h3{
 font-size: 25px;
 }
+
 .voluteersDiv article ul{
     margin: 20px 0 0 20px;
 }
+
 .voluteersDiv article ul li{
     padding: 5px;
 }
+
 .voluteersDiv {
 margin: 20px 0 40px 0;
 }
@@ -373,10 +401,12 @@ margin: 20px 0 40px 0;
     font-weight: 500;
 
 }
+
 .voting p{
     font-size: 17px;
     margin-top: 20px;
 }
+
 .preference {
     display: flex;
     /* margin: 10px 0 0 10px; */
@@ -386,18 +416,19 @@ margin: 20px 0 40px 0;
 .content{
     margin: 30px 0 0 0;
 }
+
 .content h2{
     font-size: 20px;
     margin-bottom: 10px;
     text-decoration: underline;
 }
+
 .content p {
    font-size: 18px; 
    /* background-color: red; */
    padding: 0 0 10px 0;
-   
-
 }
+
 .table p{
     text-align: right;
     margin: 10px 20px 0 0;
@@ -418,6 +449,7 @@ margin: 20px 0 40px 0;
   padding: 5px;
   /* width: 100px; */
 }
+
 /* .table0 td, */
 .table1 td,
 .table2 td,
@@ -431,6 +463,7 @@ margin: 20px 0 40px 0;
   background-color: white;
  
 }
+
 /* 
 .table1 td a,
 .table2 td a,
@@ -458,19 +491,24 @@ margin: 20px 0 40px 0;
   /* border: 2px solid grey; */
   /* border-collapse: collapse; */
 }
+
 #imgcenter{
     text-align: center;
 }
+
 .finalRes  td{
     background-color: lightgray;
 }
+
 #final{
     text-align: center;
 }
+
 /* th:hover,
 td:hover{
 border: 2px solid #CD6222;
 } */
+
 #pollEnd {
     text-align: center;
     margin: 0 50px 0 0;
@@ -481,6 +519,7 @@ footer {
 background-color:whitesmoke;
 color: black;
 }
+
 footer h2 {
     font-size: 150px;
     opacity: 0.1;
